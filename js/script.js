@@ -4,10 +4,8 @@ let error = document.querySelector(".error");
 let ul = document.querySelector(".ul");
 let ulerror = document.querySelector(".ul_error");
 
-
 let todoarr = []
 let arrindex ;
-
 
 btn.addEventListener("click", function(){
     if(inputbox.value == ""){
